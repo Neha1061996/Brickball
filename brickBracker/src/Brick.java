@@ -1,3 +1,5 @@
+
+
 import javax.swing.JFrame;
 public class Brick {
 
@@ -7,13 +9,14 @@ public class Brick {
 		
 		
 		JFrame obj= new JFrame();
-		Gameplay gameplay= new Gameplay(); //obj of gameplay class
-		obj.setBounds(10,10,700,600);
+		Gamepla gameplay= new Gamepla(); //obj of gamepla class
+		obj.setBounds(10,10,700,600);// x, y coordinates of top left, width, height
 		obj.setResizable(false);
 		obj.setTitle("Breakout Ball");
 		obj.setVisible(true);
 		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Rectangle display is created 
         obj.add(gameplay);
 	}
+	
 
 }
